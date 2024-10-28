@@ -1,0 +1,26 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "A simple URL shortener built with Node.js and MongoDB, designed to quickly convert long URLs into shorter links. This project demonstrates basic URL management, MongoDB integration, and handling HTTP requests, ideal for practicing backend skills.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheGreenDyno/URL-shortener.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheGreenDyno/URL-shortener/issues"
+  },
+  "homepage": "https://github.com/TheGreenDyno/URL-shortener#readme",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^8.7.3",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
