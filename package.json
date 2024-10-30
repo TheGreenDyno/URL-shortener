@@ -1,6 +1,6 @@
 {
   "name": "url-shortener",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A simple URL shortener built with Node.js and MongoDB, designed to quickly convert long URLs into shorter links. This project demonstrates basic URL management, MongoDB integration, and handling HTTP requests, ideal for practicing backend skills.",
   "main": "index.js",
   "scripts": {},
