@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/TheGreenDyno/URL-shortener#readme",
   "dependencies": {
+    "ejs": "^3.1.10",
     "express": "^4.21.1",
     "mongoose": "^8.7.3",
     "shortid": "^2.2.16"

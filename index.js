@@ -10,11 +10,13 @@ mongooseConnector('mongodb://127.0.0.1:27017/urlShortener')
     .catch((error) => {
         console.log(error)
     })
-
+app.use(express.static('public'))
 //middleware
-app.use(express.urlencoded({extended:true}))
+app.use(express.urlencoded({ extended: true }))
+
+app.set('view engine', 'ejs')
 //routes
-app.use('/url', router)
+app.use('/', router)
 
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`)
